@@ -7,6 +7,8 @@ package ec.edu.intsuperior.vista;
 
 import ec.edu.intsuperior.controlador.Pais;
 
+
+
 /**
  *
  * @author ASUS
@@ -18,6 +20,7 @@ public class Aplicacion {
         Pais pais3= new Pais("p001","Bolivia");
         Pais pais4= new Pais("p001","Chile");
         
-        
+        //System.out.println(pais1.getCodigoPais()+" - "+pais1.getNombrePais());
+        System.out.println(pais2.toString());
     }
 }
