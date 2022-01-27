@@ -36,5 +36,8 @@ public class Pais {
     public String getNombrePais() {
         return nombrePais;
     }
-    
+    @Override
+    public String toString() {
+        return getCodigoPais() + " - " + getNombrePais();
     }
+}
